@@ -113,6 +113,7 @@ class OrderBook(object):
             print('{0}) Price={1}, Total units={2}'.format(i+1, self.bid_prices[i], self.bid_sizes[i]))
         print()
 
+        
 if __name__ == '__main__':
     
     print('Example 1:')
